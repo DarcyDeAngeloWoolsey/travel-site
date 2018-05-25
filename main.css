@@ -1,0 +1,48 @@
+/*global*/
+
+.vh80 {
+    height: 80vh;
+}
+
+heading {
+    z-index: 2;
+    color: #fefefe;
+}
+
+
+/*carousel*/
+
+.carousel-indicators {
+    background-color: rgba(0, 0, 0, .4);
+    margin: 0 !important;
+    padding: 10px;
+    bottom: 0px !important;
+}
+
+.carousel-indicators li {
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    width: 50px !important;
+    height: 50px !important;
+    /*
+    border: black solid 5px;
+    border-radius: 50%;
+*/
+}
+
+.carousel-indicators li {
+    background-image: url("images/passport_blue.png");
+    border: #333333 solid 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+    background-image: url("images/passport_green.png") !important;
+    border: #fefefe solid 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    background-color: transparent !important;
+}
