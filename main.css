@@ -1,9 +1,5 @@
 /*global*/
 
-.vh80 {
-    height: 80vh;
-}
-
 heading {
     z-index: 2;
     color: #fefefe;
@@ -11,6 +7,10 @@ heading {
 
 
 /*carousel*/
+
+.carousel-vh {
+    height: 30vh;
+}
 
 .carousel-indicators {
     background-color: rgba(0, 0, 0, .4);
@@ -45,4 +45,27 @@ heading {
 .carousel-indicators li,
 .carousel-indicators li.active {
     background-color: transparent !important;
+}
+
+
+/*titles*/
+
+h2.section-title {
+    margin-top: 1rem;
+}
+
+
+/*cards*/
+
+.destination-card {
+    margin-top: 1rem;
+}
+
+
+/*media queries*/
+
+@media only screen and (min-width: 768px) {
+    .carousel-vh {
+        height: auto;
+    }
 }
