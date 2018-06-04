@@ -59,7 +59,14 @@ h2.section-title {
 
 .destination-card {
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+/*
+.card-image-section {
+    height: 150px;
+    overflow: hidden;
+}*/
 
 
 /*media queries*/
